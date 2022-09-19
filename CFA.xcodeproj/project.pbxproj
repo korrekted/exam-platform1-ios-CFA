@@ -334,7 +334,6 @@
 		DE067DC428A274EC00BF8238 /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067C7B28A274EC00BF8238 /* OImproveCell.swift */; };
 		DE067DC528A274EC00BF8238 /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067C7D28A274EC00BF8238 /* ReferencesTableCell.swift */; };
 		DE067DC628A274EC00BF8238 /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067C7E28A274EC00BF8238 /* ReferencesTableView.swift */; };
-		DE067DC728A274EC00BF8238 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE067C8028A274EC00BF8238 /* Onboarding.Chart.json */; };
 		DE067DC828A274EC00BF8238 /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067C8128A274EC00BF8238 /* OWhenStudyCell.swift */; };
 		DE067DC928A274EC00BF8238 /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067C8328A274EC00BF8238 /* WelcomeSlide1View.swift */; };
 		DE067DCA28A274EC00BF8238 /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067C8428A274EC00BF8238 /* WelcomeSlideIndicatorView.swift */; };
@@ -363,6 +362,7 @@
 		DE067DE128A274FB00BF8238 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067B3C28A274EC00BF8238 /* Stats.swift */; };
 		DE067DE228A274FE00BF8238 /* StatsShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE067B4F28A274EC00BF8238 /* StatsShareManager.swift */; };
 		DE067DE428A2751F00BF8238 /* SF-Pro-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE067DE328A2751900BF8238 /* SF-Pro-Rounded-Black.otf */; };
+		DE4FA16428D83EF600085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA16328D83EF600085483 /* Onboarding.Chart.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -724,7 +724,6 @@
 		DE067C7B28A274EC00BF8238 /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DE067C7D28A274EC00BF8238 /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DE067C7E28A274EC00BF8238 /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DE067C8028A274EC00BF8238 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE067C8128A274EC00BF8238 /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DE067C8328A274EC00BF8238 /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DE067C8428A274EC00BF8238 /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -749,6 +748,7 @@
 		DE067C9728A274EC00BF8238 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DE067C9828A274EC00BF8238 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DE067DE328A2751900BF8238 /* SF-Pro-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Black.otf"; sourceTree = "<group>"; };
+		DE4FA16328D83EF600085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2273,7 +2273,7 @@
 		DE067C7F28A274EC00BF8238 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DE067C8028A274EC00BF8238 /* Onboarding.Chart.json */,
+				DE4FA16328D83EF600085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2373,12 +2373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE067DE428A2751F00BF8238 /* SF-Pro-Rounded-Black.otf in Resources */,
-				DE067DC728A274EC00BF8238 /* Onboarding.Chart.json in Resources */,
 				96AD7345273028AB007BF50C /* GoogleService-Info.plist in Resources */,
 				96AD734127302873007BF50C /* Localizable.strings in Resources */,
 				96AD733D2730286F007BF50C /* SF-Pro-Rounded-Regular.otf in Resources */,
 				96AD733C2730286F007BF50C /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				96AD73432730287E007BF50C /* LaunchScreen.storyboard in Resources */,
+				DE4FA16428D83EF600085483 /* Onboarding.Chart.json in Resources */,
 				96AD70D027302125007BF50C /* Assets.xcassets in Resources */,
 				96AD733E2730286F007BF50C /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -2949,7 +2949,7 @@
 				CODE_SIGN_ENTITLEMENTS = CFA/CFA.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/CFA/Resource/Info.plist";
@@ -2958,7 +2958,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cfa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CFA Prod";
@@ -2978,7 +2978,7 @@
 				CODE_SIGN_ENTITLEMENTS = CFA/CFA.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/CFA/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -2986,7 +2986,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cfa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CFA Prod";
@@ -3004,7 +3004,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3013,7 +3013,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cfa.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CFA Widget Prod";
@@ -3031,7 +3031,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3040,7 +3040,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cfa.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CFA Widget Prod";
